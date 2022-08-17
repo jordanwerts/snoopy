@@ -3,7 +3,7 @@ function timStop() {
     let bed = document.getElementById("bed").checked;
     let plane = document.getElementById("plane").checked;
     if (house && bed || bed && plane || house && plane) {
-        alert("Stop TIM!")
+        alert("NO TIM! Round Buttons.")
     }
 
 }
